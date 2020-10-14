@@ -8,9 +8,9 @@ package jdbc.cubic;
 	Class.forName("oracle.jdbc.driver.OracleDriver");  
 	  
 	//step2 create  the connection object  
-	Connection con=DriverManager.getConnection(
+	Connection con=DriverManager.getConnection(	
 			"jdbc:oracle:thin:@localhost:1521:xe","system","Amzn2012"); 
-	  
+	  // making a comment is not a bad idea lol 
 	//step3 create the statement object  
 	Statement stmt=con.createStatement();  
 	 String sql = " CREATE TABLE Competitor2 ( cName varchar(64) primary key)";
