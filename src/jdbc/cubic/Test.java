@@ -6,7 +6,7 @@ package jdbc.cubic;
 	try{  
 	//step1 load the driver class  
 	Class.forName("oracle.jdbc.driver.OracleDriver");  
-	  
+	  // I do this 
 	//step2 create  the connection object  
 	Connection con=DriverManager.getConnection(
 			"jdbc:oracle:thin:@localhost:1521:xe","system","Amzn2012"); 
