@@ -3,7 +3,7 @@ package jdbc.cubic;
 	import java.sql.*;  
 	public class Test{  
 	public static void main(String args[]){  
-	try{  
+	tiry{  
 
 
 	//step1 load the driver from class   
