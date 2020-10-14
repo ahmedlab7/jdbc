@@ -1,4 +1,4 @@
-package jdbc.cubic;
+package jdbc.cubicq;
 
 	import java.sql.*;  
 	public class Test{  
